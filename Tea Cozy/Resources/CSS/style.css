@@ -1,0 +1,173 @@
+* {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 0px;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  right: 0;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+}
+ ul {
+   display: flex;
+ }
+
+ .header img {
+   height: 50px;
+   margin-left: 10px;
+ }
+
+ .content {
+   position: relative;
+}
+
+.mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  margin: 0 auto;
+  top: 69px;
+}
+
+.missiontext {
+  width: inherit;
+}
+
+.mission h2 {
+  font-size: 33px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea h4 {
+  margin-top: 20px;
+}
+
+.tea h2 {
+  width: 1000px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 33px;
+}
+
+.toprow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.toprow1,
+.toprow2,
+.toprow3 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.bottom1,
+.bottom2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locationbox {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  background-color: transparent;
+}
+
+.locationtext {
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+
+.locationtext h2{
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 33px;
+}
+
+.location1,
+.location2,
+.location3 {
+  width: 300px;
+  opacity: 1;
+}
+
+.location1 h3,
+.location2 h3,
+.location3 h3 {
+  font-size: 26px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  font-size: 33px;
+}
+
+.contact h5 {
+  font-size: 19px;
+}
+
+.footer h5 {
+  text-align: left;
+  font-size: 19px;
+}
+
+.footer {
+  margin-left: 20px;
+}
